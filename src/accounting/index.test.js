@@ -279,5 +279,3 @@ test('Integration - data integrity across operations', () => {
   }
   assert.strictEqual(store.read(), 1050);
 });
-
-console.log('\n✅ All tests completed!\n');
