@@ -1,0 +1,25 @@
+{
+  "name": "account-management-system",
+  "version": "1.0.0",
+  "description": "Modern Node.js account management system - modernized from legacy COBOL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage"
+  },
+  "keywords": [
+    "accounting",
+    "legacy-modernization",
+    "banking"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
